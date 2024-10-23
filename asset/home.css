@@ -43,7 +43,7 @@
 }
 #offerImage {
     transition: opacity 0.3s ease-in-out; /* Smooth transition for image opacity */
-    max-width: 450px;
+    max-width: 500px;
     margin: auto;
 }
 .offers-container{

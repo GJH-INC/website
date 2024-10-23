@@ -41,7 +41,11 @@
         // Change the title color for the active offer
         titles.forEach((title, i) => {
             if (i === index) {
-                title.classList.add('active-title');
+                if (title.classList.contains('active-title')) {
+                    title.classList.remove('active-title');
+                } else {
+                    title.classList.add('active-title');
+                }
             } else {
                 title.classList.remove('active-title');
             }
