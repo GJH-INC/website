@@ -1,0 +1,100 @@
+.sect-cont{
+    max-width:1480px;
+}
+.hero {
+    text-align: center;
+    padding: 80px 8px;
+}
+
+.hero p{
+    font-size: 20px;
+    font-weight: 200;
+}
+.hero button{
+    padding: 8px 24px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    margin-top: 32px;
+}
+.features {
+    padding: 50px;
+    background-color: #fff;
+}
+.features p{
+    font-size: 18px;
+    font-weight: 200;
+    margin-top: 32px;
+    margin-bottom: 48px;
+}
+.features h3{
+    color: #5e50b4;
+    font-size: 24px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #5e50b4;
+}
+.features .help{
+    padding: 48px 32px;
+    gap: 32px;
+}
+.off-images{
+    width:50%;
+    
+}
+#offerImage {
+    transition: opacity 0.3s ease-in-out; /* Smooth transition for image opacity */
+    max-width: 450px;
+    margin: auto;
+}
+.offers-container{
+    width: 50%;
+    margin-top: 16px;
+}
+.offers-details {
+    display: none; /* Hide by default */
+    transition: all 0.3s ease; /* Optional transition for showing/hiding details */
+}
+.offers-title h4 {
+    cursor: pointer;
+    font-size: 18px;
+    padding-bottom:8px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 32px;
+    color: #000; /* Default color */
+    transition: All 0.3s ease; /* Smooth transition for color change */
+}
+.offers-title h4:hover {
+    border-bottom: 1px solid #007bff;
+    color: #007bff;
+}
+.offers-title h4.active-title {
+    color: #007bff; /* Change to your desired active color */
+    border-bottom: 1px solid #007bff;
+}
+.offers-title h4 {
+    position: relative;
+    cursor: pointer;
+    font-weight: normal;
+    color: #333; /* default color */
+}
+
+/* Default state: showing the + symbol */
+.offers-title h4::after {
+    content: '+';
+    position: absolute;
+    right: 10px; /* Adjust as needed */
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/* Active state: showing the - symbol */
+.offers-title h4.active-title::after {
+    content: '−'; /* minus symbol */
+    color: #6b46c1; /* change color on active */
+}
+
+/* Change title color when active */
+.offers-title h4.active-title {
+    color: #6b46c1; /* adjust the color to match the design */
+}
+
