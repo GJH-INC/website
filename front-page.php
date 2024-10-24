@@ -166,22 +166,32 @@
         </div>
         
     </section>
-    <section class="collab bg-black text-white">
-        <div class="flex flex-row">
-            <div class="sect-cont mx-auto">
-                <h3>We are ready to collaborate</h3>
-                <div>
-                    Collaborate with fellow architects.
-                    Showcase your projects.
-                    Experience the world of Tech.
+    <section class="collab text-white">
+        <div >
+            <div class="sect-cont mx-auto flex flex-row justify-center collab-container">
+                <div class="collab-process">
+                    <h3>We are ready to collaborate</h3>
+                    <div class="flex flex-col items-center">
+                        <p>
+                            Collaborate with fellow architects.
+                        </p>
+                        <img width="45px" height="45px" src="<?php echo get_template_directory_uri(); ?>/asset/images/down.svg" alt="down icon"/>
+                        <p>
+                            Showcase your projects.
+                        </p>
+                        <img width="45px" height="45px" src="<?php echo get_template_directory_uri(); ?>/asset/images/down.svg" alt="down icon"/>
+                        <p>
+                            Experience the world of Tech.
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <div>
-                <h3>Contact</h3>
-                <form>
-                    <input type="text">
-                    <imput type="email"/>
-                </form>
+                <div class="contact">
+                    <h2>Contact</h2>
+                    <form class="flex flex-col">
+                        <input type="text" placeholder="name*">
+                        <input type="email" placeholder="Email*"/>
+                    </form>
+                </div>
             </div>
         </div>
     </section>

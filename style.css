@@ -37,10 +37,60 @@ body {
 footer {
     background-color: #222;
     color: white;
-    padding: 20px;
+}
+footer>p{
+    font-size: 14px;
+    font-weight:200;
+    margin: 0px;
     text-align: center;
 }
+.foot-cont{
+    padding: 60px 32px;
+    max-width: 1280px;
+    margin: 0 auto;
+    justify-content: space-around;
 
+}
+.foot-links{
+    text-decoration: none;
+    color: #fff;
+    text-align: left;
+    transition: all 0.2s ease-in;
+    padding-bottom: 1px;
+    margin: 4px 0px;
+    border-bottom:1px solid transparent
+}
+.foot-links:hover{
+    border-bottom:1px solid #0766f3;
+    color: #0766f3;
+    text-align: left;
+}
+.foot-cont h4{
+    margin:0px ;
+    margin-bottom: 12px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+}
+.foot-logo{
+    max-width: 300px;
+}
+.foot-logo>div{
+    align-items: end;
+}
+.foot-logo h3{
+    margin: 0px;
+    margin-left:8px ;
+    font-size: 20px;
+    font-weight: 400;
+}
+.foot-logo p{
+    color: #f7f7f7;
+    font-size: 14px;
+    font-weight: 200;
+    text-align: left;
+    margin-top: 32px;
+}
 .bg-candy{
     background-color: #ae6fdd;
 }
