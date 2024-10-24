@@ -19,7 +19,7 @@
                 Reliable, innovative IT professionals from us can help you take your company to the next level and yet give you the flexibility to take on your greatest challenges without the expense, delay, or inconvenience of lengthy processes.
             </p>
             <div>
-                <h3 class="underlined-h3">How we help?</h3>
+                <h3 class="underlined-h3">Our Services?</h3>
                 <div class="help flex flex-row">
                     <!-- Image -->
                     <div class="off-images flex items-center justify-center">
@@ -88,11 +88,11 @@
     </section>
     <section class="expertise bg-white">
         <div class="sect-cont mx-auto">
-            <h3 class="underlined-h3">How we Work?</h3>
+            <h3 class="underlined-h3">Resource Solutions </h3>
             <div>
                 <div class="flex flex-row expt">
                     <div class="expt-img">
-                        <img src="<?php echo get_template_directory_uri(); ?>/asset/images/wide.webp" class="" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/asset/images/rsrc.webp" class="" />
                     </div>
                     <div class="expt-details">
                         <p>
@@ -120,6 +120,48 @@
                         </p>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+    <section class="expertise bg-white">
+        <div class="sect-cont mx-auto">
+            <h3 class="underlined-h3">What sets us apart </h3>
+        </div>
+        <div class="values-container">
+            <div class="value-box">
+                <div class="value-title">
+                    <img src="icon1.png" alt="Our People Icon">
+                    <h4>Our People</h4>
+                </div>
+                <p>Our strength lies in our people. We invest in their growth to ensure they are equipped to drive innovation and excellence for our clients.</p>
+            </div>
+            <div class="value-box">
+                <div class="value-title">
+                    <img src="icon2.png" alt="Performance-Based Processes Icon">
+                    <h4>Performance-Based Processes</h4>
+                </div>
+                <p>We follow proven, performance-driven processes that streamline our work, delivering consistent and measurable results.</p>
+            </div>
+            <div class="value-box">
+                <div class="value-title">
+                    <img src="icon3.png" alt="Integrated Solutions Teams Icon">
+                    <h4>Integrated Solutions Teams</h4>
+                </div>
+                <p>Our teams are cross-functional, integrating diverse skills to tackle complex challenges and deliver holistic solutions.</p>
+            </div>
+            <div class="value-box">
+                <div class="value-title">
+                    <img src="icon4.png" alt="Client Relationship Management Icon">
+                    <h4>Client Relationship Management</h4>
+                </div>
+                <p>We prioritize building lasting relationships with clients, understanding their needs to provide long-term value.</p>
+            </div>
+            <div class="value-box">
+                <div class="value-title">
+                    <img src="icon5.png" alt="Strategic Mix Icon">
+                    <h4>Strategic Mix of Technology and Business</h4>
+                </div>
+                <p>We blend cutting-edge technology with a deep understanding of business strategies to create solutions that drive growth.</p>
             </div>
         </div>
     </section>
