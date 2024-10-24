@@ -5,6 +5,9 @@
     text-align: center;
     padding: 80px 8px;
 }
+.hero h1{
+    margin-bottom: 24px;
+}
 
 .hero p{
     font-size: 20px;
@@ -13,10 +16,42 @@
 .hero button{
     padding: 12px 24px;
     border-radius: 6px;
-    margin-top: 32px;
+    margin-top: 24px;
     font-size: 16px;
     font-weight: 500;
 }
+/* hero animation */
+.hero-title, .hero-description, .hero-button {
+    opacity: 0;
+    transform: translate3d(0, 100px, 0) scale(0.95);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+/* Trigger individual animations with delay */
+.hero-title {
+    animation: fadeInUp 0.8s ease forwards 0.3s;
+}
+
+.hero-description {
+    animation: fadeInUp 0.8s ease forwards 0.5s;
+}
+
+.hero-button {
+    animation: fadeInUp 0.8s ease forwards 0.7s;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, 100px, 0) scale(0.95);
+    }
+    100% {
+        opacity: 1;
+        transform: translate3d(0, 0, 0) scale(1);
+    }
+}
+
+
 .features {
     padding: 50px;
 }
@@ -30,7 +65,6 @@
     color: #5e50b4;
     font-size: 24px;
     padding-bottom: 16px;
-    border-bottom: 1px solid #5e50b4;
     font-weight: 500;
     margin-top: 0px;
 }
@@ -186,8 +220,12 @@ section.expertise{
     font-size: 18px;
     font-weight: 300;
 }
-.collab .contact{
-    
+.collab .contact button{
+    padding: 12px 24px;
+    border-radius: 6px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
 }
 .collab .contact input{
     border: 1px solid #f2eded30;

@@ -1,15 +1,17 @@
 <?php get_header(); ?>
 <main class="mx-auto">
     <section class="hero sect-cont mx-auto">
-        <h1 class="text-center">Leave the Tech to us</h1>
-        <p class="text-center">
+        <h1 class="hero-title text-center">Leave the Tech to us</h1>
+        <p class="hero-description text-center">
             GJH INC offers companies the ability to quickly respond to technology initiatives by strategically acquiring skills and cost-effectively managing available resources.
-            GJH INC provides strategic consulting technology, services and managed services to commercial, not for profit
+            GJH INC provides strategic consulting technology, services, and managed services to commercial, not-for-profit,
             and government organizations.
         </p>
-        <button class="text-center bg-black text-white">
+        <a href="#contact">
+            <button class="hero-button text-center bg-black text-white">
             Talk to Us
-        </button>
+            </button>
+        </a>
     </section>
 
     <section class="features bg-white">
@@ -29,7 +31,7 @@
                     <div class="offers-container flex flex-col">
                         <!-- Offer Items -->
                         <div class="gjh-offers">
-                            <div class="offers-title">
+                            <div class="offers-title  scroll-animate">
                                 <h4 onclick="toggleDetails(0)">Application & Web Design and Development</h4>
                             </div>
                             <div class="offers-details" style="display:none;">
@@ -38,7 +40,7 @@
                         </div>
 
                         <div class="gjh-offers">
-                            <div class="offers-title">
+                            <div class="offers-title  scroll-animate">
                                 <h4 onclick="toggleDetails(1)">Commercial Off-the-shelf (COTS) Integration</h4>
                             </div>
                             <div class="offers-details" style="display:none;">
@@ -47,7 +49,7 @@
                         </div>
 
                         <div class="gjh-offers">
-                            <div class="offers-title">
+                            <div class="offers-title  scroll-animate">
                                 <h4 onclick="toggleDetails(2)">Data Quality, Management, Migration and Conversion</h4>
                             </div>
                             <div class="offers-details" style="display:none;">
@@ -56,7 +58,7 @@
                         </div>
 
                         <div class="gjh-offers">
-                            <div class="offers-title">
+                            <div class="offers-title  scroll-animate">
                                 <h4 onclick="toggleDetails(3)">Database Design, Development and Maintenance</h4>
                             </div>
                             <div class="offers-details" style="display:none;">
@@ -65,7 +67,7 @@
                         </div>
 
                         <div class="gjh-offers">
-                            <div class="offers-title">
+                            <div class="offers-title  scroll-animate">
                                 <h4 onclick="toggleDetails(4)">Gen AI Solutions</h4>
                             </div>
                             <div class="offers-details" style="display:none;">
@@ -74,7 +76,7 @@
                         </div>
 
                         <div class="gjh-offers">
-                            <div class="offers-title">
+                            <div class="offers-title  scroll-animate">
                                 <h4 onclick="toggleDetails(5)">Architectural Solutions</h4>
                             </div>
                             <div class="offers-details" style="display:none;">
@@ -90,7 +92,7 @@
         <div class="sect-cont mx-auto">
             <h3 class="underlined-h3">Resource Solutions </h3>
             <div>
-                <div class="flex flex-row expt">
+                <div class="flex flex-row  scroll-animate expt">
                     <div class="expt-img">
                         <img src="<?php echo get_template_directory_uri(); ?>/asset/images/rsrc.webp" class="" />
                     </div>
@@ -100,7 +102,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="flex flex-row expt">
+                <div class="flex flex-row  scroll-animate expt">
                     <div class="expt-details">
                         <p>
                             GJH INC offers companies the ability to quickly respond to technology initiatives by strategically acquiring skills and cost-effectively managing available resources.
@@ -110,7 +112,7 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/asset/images/expert2.webp" class="" />
                     </div>
                 </div>
-                <div class="flex flex-row expt">
+                <div class="flex flex-row  scroll-animate expt">
                     <div class="expt-img">
                         <img src="<?php echo get_template_directory_uri(); ?>/asset/images/years.webp" class="" />
                     </div>
@@ -127,35 +129,35 @@
         <div class="sect-cont mx-auto">
             <h3 class="underlined-h3">What sets us apart </h3>
             <div class="values-container">
-                <div class="value-box">
+                <div class="value-box  scroll-animate">
                     <div class="value-title">
                         <img width="40px" height="40px" src="<?php echo get_template_directory_uri(); ?>/asset/images/people.webp" alt="Our People Icon">
                         <h4>Our People</h4>
                     </div>
                     <p>Our strength lies in our people. We invest in their growth to ensure they are equipped to drive innovation and excellence for our clients.</p>
                 </div>
-                <div class="value-box">
+                <div class="value-box  scroll-animate">
                     <div class="value-title">
                         <img width="50px" height="50px" src="<?php echo get_template_directory_uri(); ?>/asset/images/perf.webp" alt="Performance-Based Processes Icon">
                         <h4>Performance-Based Processes</h4>
                     </div>
                     <p>We follow proven, performance-driven processes that streamline our work, delivering consistent and measurable results.</p>
                 </div>
-                <div class="value-box">
+                <div class="value-box  scroll-animate">
                     <div class="value-title">
                         <img width="40px" height="40px" src="<?php echo get_template_directory_uri(); ?>/asset/images/solution.webp" alt="Integrated Solutions Teams Icon">
                         <h4>Integrated Solutions Teams</h4>
                     </div>
                     <p>Our teams are cross-functional, integrating diverse skills to tackle complex challenges and deliver holistic solutions.</p>
                 </div>
-                <div class="value-box">
+                <div class="value-box  scroll-animate">
                     <div class="value-title">
                         <img width="45px" height="45px" src="<?php echo get_template_directory_uri(); ?>/asset/images/crm.webp" alt="Client Relationship Management Icon">
                         <h4>Client Relationship Management</h4>
                     </div>
                     <p>We prioritize building lasting relationships with clients, understanding their needs to provide long-term value.</p>
                 </div>
-                <div class="value-box">
+                <div class="value-box  scroll-animate">
                     <div class="value-title">
                         <img width="45px" height="45px" src="<?php echo get_template_directory_uri(); ?>/asset/images/strategy.webp" alt="Strategic Mix Icon">
                         <h4>Strategic Mix of Tech and Business</h4>
@@ -185,16 +187,20 @@
                         </p>
                     </div>
                 </div>
-                <div class="contact">
+                <div class="contact" id="contact">
                     <h2>Contact</h2>
                     <form class="flex flex-col">
                         <input type="text" placeholder="name*">
                         <input type="email" placeholder="Email*"/>
+                        <button class="text-center bg-black text-white">
+                            Submit
+                        </button>
                     </form>
                 </div>
             </div>
         </div>
     </section>
+   
 </main>
 
 

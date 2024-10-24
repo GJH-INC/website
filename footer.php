@@ -8,6 +8,10 @@
             <p>
                 Leave the Tech to us, Focus on winning in your business
             </p>
+            <a href="https://g.co/kgs/GnVjUwv" class="foot-links">
+                697 Auburn Dr
+                Vallejo CA 94589
+            </a>
         </div>
         <div class="flex flex-col foot-mainpg">
             <h4>
@@ -33,22 +37,22 @@
             <h4>
                 Other pages
             </h4>
-            <a class="foot-links" href="<?php echo home_url(); ?>">
-                Home
+            <a class="foot-links" href="<?php echo home_url('/terms'); ?>">
+                Terms
             </a>
-            <a class="foot-links" href="<?php echo home_url('/services'); ?>">
-                Services
-            </a>
-            <a class="foot-links" href="<?php echo home_url('/capability-statement'); ?>">
-                Capability Statement
+            <a class="foot-links" href="<?php echo home_url('/privacy'); ?>">
+                Privacy
             </a>
         </div>
         <div class="flex flex-col contact-links">
             <h4>
                 Contacts
             </h4>
-            <a class="foot-links" class="mail-link" href="mailto:contact@GJHconsulting.net">
-                contact@GJHconsulting.net
+            <a class="foot-links"  href="mailto:info@gjh-inc.com">
+                info@gjh-inc.com
+            </a>
+            <a class="foot-links"  href="tel:(650) 456-1744">
+                (650) 456-1744
             </a>
             <div class="socials-icon flex">
 
@@ -61,6 +65,8 @@
 <?php wp_footer(); ?>
 <?php if (is_front_page()): ?>
     <script src="<?php echo get_template_directory_uri(); ?>/asset/accordion.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/asset/scroll.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/asset/home.js"></script>
 <?php endif; ?> 
 </body>
 </html>
