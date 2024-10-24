@@ -7,19 +7,19 @@
             GJH INC provides strategic consulting technology, services and managed services to commercial, not for profit
             and government organizations.
         </p>
-        <button class="text-center">
+        <button class="text-center bg-black text-white">
             Talk to Us
         </button>
     </section>
 
-    <section class="features ">
+    <section class="features bg-white">
         <div class="sect-cont mx-auto">
             <h2 class="text-center">A passion to see you leap forward</h2>
             <p>
                 Reliable, innovative IT professionals from us can help you take your company to the next level and yet give you the flexibility to take on your greatest challenges without the expense, delay, or inconvenience of lengthy processes.
             </p>
             <div>
-                <h3>How we help?</h3>
+                <h3 class="underlined-h3">How we help?</h3>
                 <div class="help flex flex-row">
                     <!-- Image -->
                     <div class="off-images flex items-center justify-center">
@@ -84,6 +84,43 @@
                     </div>
                 </div>
             </div>  
+        </div>
+    </section>
+    <section class="expertise bg-white">
+        <div class="sect-cont mx-auto">
+            <h3 class="underlined-h3">How we Work?</h3>
+            <div>
+                <div class="flex flex-row expt">
+                    <div class="expt-img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/asset/images/wide.webp" class="" />
+                    </div>
+                    <div class="expt-details">
+                        <p>
+                            Our comprehensive suite of professional services caters to a diverse clientele, ranging from homeowners to commercial developers.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex flex-row expt">
+                    <div class="expt-details">
+                        <p>
+                            GJH INC offers companies the ability to quickly respond to technology initiatives by strategically acquiring skills and cost-effectively managing available resources.
+                        </p>
+                    </div>
+                    <div class="expt-img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/asset/images/expert2.webp" class="" />
+                    </div>
+                </div>
+                <div class="flex flex-row expt">
+                    <div class="expt-img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/asset/images/years.webp" class="" />
+                    </div>
+                    <div class="expt-details">
+                        <p>
+                            With over 15 years of experience in delivering innovative solutions and support services to both public and private sector clients, we are confident that our expertise aligns with your needs and goals for this initiative.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 </main>

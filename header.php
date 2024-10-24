@@ -12,7 +12,7 @@
 </head>
 <body <?php body_class(); ?>>
 
-<header>
+<header class="bg-white">
     <div class="flex flex-row justify-between items-center header-container">
         <div class="rounded-full logo-div">
             <img width="48px" height="48px"  src="<?php echo get_template_directory_uri(); ?>/asset/images/logo.png" />
@@ -35,7 +35,7 @@
             </a>
         </nav>
         <div>
-            <button class="rounded-btn bg-candy">
+            <button class="rounded-btn bg-black text-white">
                 Contact Us
             </button>
         </div>
