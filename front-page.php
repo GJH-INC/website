@@ -126,42 +126,62 @@
     <section class="expertise bg-white">
         <div class="sect-cont mx-auto">
             <h3 class="underlined-h3">What sets us apart </h3>
+            <div class="values-container">
+                <div class="value-box">
+                    <div class="value-title">
+                        <img width="40px" height="40px" src="<?php echo get_template_directory_uri(); ?>/asset/images/people.webp" alt="Our People Icon">
+                        <h4>Our People</h4>
+                    </div>
+                    <p>Our strength lies in our people. We invest in their growth to ensure they are equipped to drive innovation and excellence for our clients.</p>
+                </div>
+                <div class="value-box">
+                    <div class="value-title">
+                        <img width="50px" height="50px" src="<?php echo get_template_directory_uri(); ?>/asset/images/perf.webp" alt="Performance-Based Processes Icon">
+                        <h4>Performance-Based Processes</h4>
+                    </div>
+                    <p>We follow proven, performance-driven processes that streamline our work, delivering consistent and measurable results.</p>
+                </div>
+                <div class="value-box">
+                    <div class="value-title">
+                        <img width="40px" height="40px" src="<?php echo get_template_directory_uri(); ?>/asset/images/solution.webp" alt="Integrated Solutions Teams Icon">
+                        <h4>Integrated Solutions Teams</h4>
+                    </div>
+                    <p>Our teams are cross-functional, integrating diverse skills to tackle complex challenges and deliver holistic solutions.</p>
+                </div>
+                <div class="value-box">
+                    <div class="value-title">
+                        <img width="45px" height="45px" src="<?php echo get_template_directory_uri(); ?>/asset/images/crm.webp" alt="Client Relationship Management Icon">
+                        <h4>Client Relationship Management</h4>
+                    </div>
+                    <p>We prioritize building lasting relationships with clients, understanding their needs to provide long-term value.</p>
+                </div>
+                <div class="value-box">
+                    <div class="value-title">
+                        <img width="45px" height="45px" src="<?php echo get_template_directory_uri(); ?>/asset/images/strategy.webp" alt="Strategic Mix Icon">
+                        <h4>Strategic Mix of Tech and Business</h4>
+                    </div>
+                    <p>We blend cutting-edge technology with a deep understanding of business strategies to create solutions that drive growth.</p>
+                </div>
+            </div>
         </div>
-        <div class="values-container">
-            <div class="value-box">
-                <div class="value-title">
-                    <img src="icon1.png" alt="Our People Icon">
-                    <h4>Our People</h4>
+        
+    </section>
+    <section class="collab bg-black text-white">
+        <div class="flex flex-row">
+            <div class="sect-cont mx-auto">
+                <h3>We are ready to collaborate</h3>
+                <div>
+                    Collaborate with fellow architects.
+                    Showcase your projects.
+                    Experience the world of Tech.
                 </div>
-                <p>Our strength lies in our people. We invest in their growth to ensure they are equipped to drive innovation and excellence for our clients.</p>
             </div>
-            <div class="value-box">
-                <div class="value-title">
-                    <img src="icon2.png" alt="Performance-Based Processes Icon">
-                    <h4>Performance-Based Processes</h4>
-                </div>
-                <p>We follow proven, performance-driven processes that streamline our work, delivering consistent and measurable results.</p>
-            </div>
-            <div class="value-box">
-                <div class="value-title">
-                    <img src="icon3.png" alt="Integrated Solutions Teams Icon">
-                    <h4>Integrated Solutions Teams</h4>
-                </div>
-                <p>Our teams are cross-functional, integrating diverse skills to tackle complex challenges and deliver holistic solutions.</p>
-            </div>
-            <div class="value-box">
-                <div class="value-title">
-                    <img src="icon4.png" alt="Client Relationship Management Icon">
-                    <h4>Client Relationship Management</h4>
-                </div>
-                <p>We prioritize building lasting relationships with clients, understanding their needs to provide long-term value.</p>
-            </div>
-            <div class="value-box">
-                <div class="value-title">
-                    <img src="icon5.png" alt="Strategic Mix Icon">
-                    <h4>Strategic Mix of Technology and Business</h4>
-                </div>
-                <p>We blend cutting-edge technology with a deep understanding of business strategies to create solutions that drive growth.</p>
+            <div>
+                <h3>Contact</h3>
+                <form>
+                    <input type="text">
+                    <imput type="email"/>
+                </form>
             </div>
         </div>
     </section>

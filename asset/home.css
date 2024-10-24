@@ -32,6 +32,7 @@
     padding-bottom: 16px;
     border-bottom: 1px solid #5e50b4;
     font-weight: 500;
+    margin-top: 0px;
 }
 .features .help{
     padding: 48px 32px;
@@ -99,7 +100,7 @@
 }
 
 section.expertise{
-    padding: 80px 0px;
+    padding: 40px 0px;
 }
 .expt{
     gap:32px;
@@ -134,30 +135,27 @@ section.expertise{
 
 .value-box {
     background-color: white;
-    border: 1px solid #ddd;
     border-radius: 10px;
     padding: 20px;
     margin: 10px;
-    width: 300px;
-    text-align: center;
+    max-width: 420px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .value-title {
     display: flex;
     align-items: center;
-    justify-content: center;
     margin-bottom: 15px;
 }
 
 .value-title img {
-    width: 30px;
-    height: 30px;
     margin-right: 10px;
 }
 
 .value-title h4 {
-    font-size: 1.2rem;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0px;
 }
 
 .value-box p {
@@ -166,6 +164,4 @@ section.expertise{
 }
 
 .value-box:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
