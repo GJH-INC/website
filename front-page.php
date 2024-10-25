@@ -127,7 +127,7 @@
     </section>
     <section class="expertise bg-white">
         <div class="sect-cont mx-auto">
-            <h3 class="underlined-h3">What sets us apart </h3>
+            <h3 class="underlined-h3">What sets us apart? </h3>
             <div class="values-container">
                 <div class="value-box  scroll-animate">
                     <div class="value-title">
@@ -181,7 +181,7 @@
                         <p>
                             Showcase your projects.
                         </p>
-                        <img width="45px" height="45px" src="<?php echo get_template_directory_uri(); ?>/asset/images/down.svg" alt="down icon"/>
+                        <img width="45px" height="45px" src="<?php echo  get_template_directory_uri(); ?>/asset/images/down.svg" alt="down icon"/>
                         <p>
                             Experience the world of Tech.
                         </p>
