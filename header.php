@@ -4,10 +4,18 @@
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php wp_head(); ?>
-    <?php if (is_front_page()): ?>
+    <?php 
+    if (is_front_page()): ?>
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/asset/home.css">
-    <?php endif; ?> 
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/asset/generic.css">
+    <?php 
+    elseif (is_page('services')): // For the "service" page
+    ?>
+        <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/asset/services.css">
+    <?php 
+    elseif (is_page('market')): // For the "market" page
+    ?>
+        <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/asset/markets.css">
+    <?php endif; ?>
 
 </head>
 <body <?php body_class(); ?>>
@@ -24,11 +32,9 @@
             <a href="<?php echo home_url('/services'); ?>">
                 Services
             </a>
-            <a href="<?php echo home_url('/capability-statement'); ?>">
-                Capability Statement
-            </a>
-            <a href="<?php echo home_url('/marketing'); ?>">
-                Marketing
+            
+            <a href="<?php echo home_url('/markets'); ?>">
+                Markets
             </a>
             <a href="<?php echo home_url('/careers'); ?>">
                 Careers

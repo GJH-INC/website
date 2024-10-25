@@ -37,6 +37,9 @@
             <h4>
                 Other pages
             </h4>
+            <a class="foot-links" href="<?php echo home_url('/capability-statement'); ?>">
+                Capability Statement
+            </a>
             <a class="foot-links" href="<?php echo home_url('/terms'); ?>">
                 Terms
             </a>
@@ -51,6 +54,7 @@
             <a class="foot-links"  href="mailto:info@gjh-inc.com">
                 info@gjh-inc.com
             </a>
+
             <a class="foot-links"  href="tel:(650) 456-1744">
                 (650) 456-1744
             </a>
