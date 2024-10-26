@@ -97,16 +97,22 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/asset/images/rsrc.webp" class="" />
                     </div>
                     <div class="expt-details">
-                        <p>
-                            Our comprehensive suite of professional services caters to a diverse clientele, ranging from homeowners to commercial developers.
-                        </p>
+                        <h4>Comprehensive Services</h4>
+                        <ul>
+                            <li>GJH INC offers a comprehensive suite of professional services designed for a wide range of clients, from individual homeowners to large commercial developers.</li>
+                            <li>Our goal is to provide each client with tailored, efficient solutions that drive results.</li>
+                            <li>Whether enhancing personal property or commercial projects, we deliver solutions that make a real impact.</li>
+                        </ul>
                     </div>
                 </div>
                 <div class="flex flex-row  scroll-animate expt">
                     <div class="expt-details">
-                        <p>
-                            GJH INC offers companies the ability to quickly respond to technology initiatives by strategically acquiring skills and cost-effectively managing available resources.
-                        </p>
+                        <h4>Technology Integration</h4>
+                        <ul>
+                            <li>With over 15 years of proven experience, we empower companies to respond swiftly to technology initiatives.</li>
+                            <li>We help clients strategically acquire specialized skills while managing resources cost-effectively.</li>
+                            <li>Our team excels in assessing needs and aligning resources to meet objectives, enabling confident project execution.</li>
+                        </ul>
                     </div>
                     <div class="expt-img">
                         <img src="<?php echo get_template_directory_uri(); ?>/asset/images/expert2.webp" class="" />
@@ -117,9 +123,12 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/asset/images/years.webp" class="" />
                     </div>
                     <div class="expt-details">
-                        <p>
-                            With over 15 years of experience in delivering innovative solutions and support services to both public and private sector clients, we are confident that our expertise aligns with your needs and goals for this initiative.
-                        </p>
+                        <h4>Trusted Expertise</h4>
+                        <ul>
+                            <li>We have a strong record of delivering innovative solutions and support services to both public and private sector clients.</li>
+                            <li>Our expertise across various industries makes us a trusted partner committed to meeting unique client needs.</li>
+                            <li>By working with us, you gain a partner dedicated to advancing your goals and bringing your vision to life with confidence and precision.</li>
+                        </ul>
                     </div>
                 </div>
             </div>

@@ -62,7 +62,7 @@ get_header();
         <div class="mkt-pg-container">
             <div class="mkt-pg-stats-grid">
                 <div class="mkt-pg-stat-item">
-                    <div class="mkt-pg-stat-number">500+</div>
+                    <div class="mkt-pg-stat-number">100+</div>
                     <div class="mkt-pg-stat-label">Clients Served</div>
                 </div>
                 <div class="mkt-pg-stat-item">
@@ -70,7 +70,7 @@ get_header();
                     <div class="mkt-pg-stat-label">Years Experience</div>
                 </div>
                 <div class="mkt-pg-stat-item">
-                    <div class="mkt-pg-stat-number">98%</div>
+                    <div class="mkt-pg-stat-number">100%</div>
                     <div class="mkt-pg-stat-label">Client Satisfaction</div>
                 </div>
                 <div class="mkt-pg-stat-item">

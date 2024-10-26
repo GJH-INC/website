@@ -12,7 +12,7 @@
     ?>
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/asset/services.css">
     <?php 
-    elseif (is_page('market')): // For the "market" page
+    elseif (is_page('markets')): // For the "market" page
     ?>
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/asset/markets.css">
     <?php endif; ?>

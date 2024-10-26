@@ -11,7 +11,7 @@
 
 .hero p{
     font-size: 20px;
-    font-weight: 200;
+    font-weight: 300;
 }
 .hero button{
     padding: 12px 24px;
@@ -57,7 +57,7 @@
 }
 .features p{
     font-size: 18px;
-    font-weight: 200;
+    font-weight: 300;
     margin-top: 32px;
     margin-bottom: 48px;
 }
@@ -151,10 +151,18 @@ section.expertise{
 .expt-img img{
     width: 100%;
 }
-.expt-details p{
+.expt-details li{
     font-size: 18px;
-    font-weight: 200;
-    margin-top: 40px;
+    font-weight: 300;
+    margin-top: 24px;
+}
+.expt-details{
+    margin-left: 8px;
+}
+.expt-details h4{
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 20px;
 }
 .expertise .sect-cont>div{
     margin-top: 56px;
