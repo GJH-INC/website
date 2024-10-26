@@ -198,13 +198,18 @@
                 </div>
                 <div class="contact" id="contact">
                     <h2>Contact</h2>
-                    <form class="flex flex-col">
-                        <input type="text" placeholder="name*">
-                        <input type="email" placeholder="Email*"/>
-                        <button class="text-center bg-black text-white">
-                            Submit
-                        </button>
+                    <form id="contact-form" class="flex flex-col" method="post">
+                        <input type="text" name="contact_name" placeholder="Name" required />
+                        <input type="email" name="contact_email" placeholder="Email" required />
+                        <textarea name="contact_message" placeholder="Message" rows="7" required></textarea>
+
+                        <!-- Google reCAPTCHA v2 checkbox -->
+                        <div class="g-recaptcha" data-sitekey="6LcYsmwqAAAAAGjXyOcD6Pq8OYtAUd0SZFffMIH3"></div>
+
+                        <button type="submit">Submit</button>
                     </form>
+
+                    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
                 </div>
             </div>
         </div>
