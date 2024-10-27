@@ -25,7 +25,12 @@
         <div class="rounded-full logo-div">
             <img width="48px" height="48px" src="<?php echo get_template_directory_uri(); ?>/asset/images/logo.png" />
         </div>
-        
+        <nav class="flex flex-row desktop-nav">
+            <a href="<?php echo home_url(); ?>">Home</a>
+            <a href="<?php echo home_url('/services'); ?>">Services</a>
+            <a href="<?php echo home_url('/markets'); ?>">Markets</a>
+            <a href="<?php echo home_url('/careers'); ?>">Careers</a>
+        </nav>
         <!-- Hamburger Menu Button -->
         <div class="hamburger-menu">
             <span></span>
@@ -35,7 +40,7 @@
 
         <!-- Mobile Navigation Overlay -->
         <div class="mobile-nav-overlay">
-            <nav class="flex flex-row desktop-nav">
+            <nav class="flex flex-row mob-nav">
                 <a href="<?php echo home_url(); ?>">Home</a>
                 <a href="<?php echo home_url('/services'); ?>">Services</a>
                 <a href="<?php echo home_url('/markets'); ?>">Markets</a>

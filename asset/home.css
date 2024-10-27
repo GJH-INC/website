@@ -1,5 +1,6 @@
 .sect-cont{
     max-width:1480px;
+    padding: 0px 24px;
 }
 .hero {
     text-align: center;
@@ -254,6 +255,7 @@ section.expertise{
     /* Hero Section */
     .hero {
         padding: 40px 16px;
+        margin-top: 60px;
     }
     
     .hero h1 {
@@ -267,7 +269,7 @@ section.expertise{
     
     /* Features Section */
     .features {
-        padding: 32px 16px;
+        padding: 32px 0px;
     }
     
     .features p {
@@ -306,7 +308,9 @@ section.expertise{
         gap: 24px;
         margin-bottom: 24px;
     }
-    
+    .expt-rev{
+        flex-direction: column-reverse;
+    }
     .expt-img {
         width: 100%;
     }
@@ -336,7 +340,7 @@ section.expertise{
     
     /* Collaboration Section */
     .collab {
-        padding: 40px 16px;
+        padding: 40px 0px;
     }
     
     .collab h3 {

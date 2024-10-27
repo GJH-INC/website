@@ -53,7 +53,7 @@ footer>p{
 }
 .foot-links{
     text-decoration: none;
-    color: #fff;
+    color: #f7f7f7;
     text-align: left;
     transition: all 0.2s ease-in;
     padding-bottom: 1px;
@@ -69,8 +69,9 @@ footer>p{
     margin:0px ;
     margin-bottom: 12px;
     text-align: left;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
+    color: #5e50b4;
 }
 .foot-logo{
     max-width: 300px;
@@ -128,9 +129,6 @@ header nav a{
     color: #000;
     text-decoration: none;
 }
-header nav a:hover{
-    text-decoration: underline;
-}
 .header-container{
     padding: 20px 40px;
     box-shadow: 0 4.36px 13px rgba(25,37,132,.1);
@@ -180,16 +178,23 @@ header nav a:hover{
     position: relative;
 }
 
-/* Desktop Navigation */
-.desktop-nav a {
+
+
+/* mob Navigation */
+.mob-nav{
+    display: none;
+}
+.mob-nav a,.desktop-nav a {
     margin: 0 20px;
     text-decoration: none;
     color: #333;
+    border-bottom: 1px solid transparent;
     transition: color 0.3s ease;
 }
 
-.desktop-nav a:hover {
+.mob-nav a:hover,.desktop-nav a:hover  {
     color: #007bff;
+    border-bottom: 1px solid #0766f3;
 }
 
 /* Hamburger Menu */
@@ -222,7 +227,9 @@ header nav a:hover{
     .hamburger-menu {
         display: flex;
     }
-
+    .desktop-nav{
+        display: none;
+    }
     .mobile-nav-overlay {
         position: fixed;
         top: 0;
@@ -241,13 +248,14 @@ header nav a:hover{
         transform: translateX(0);
     }
 
-    .desktop-nav {
+    .mob-nav {
+        display: flex;
         flex-direction: column;
         align-items: center;
         margin-bottom: 32px;
     }
 
-    .desktop-nav a {
+    .mob-nav a {
         margin: 16px 0;
         font-size: 24px;
     }
@@ -269,6 +277,11 @@ header nav a:hover{
     .contact-btn {
         text-align: center;
     }
+    .foot-cont{
+        justify-content: start;
+        gap: 16px;
+    }
+   
 }
 
 /* Additional styles for smaller devices */
@@ -277,7 +290,10 @@ header nav a:hover{
         padding: 12px 16px;
     }
 
-    .desktop-nav a {
+    .mob-nav a {
         font-size: 20px;
     }
+}
+.g-recaptcha>div{
+    width: 100%!important;
 }

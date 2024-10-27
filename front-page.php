@@ -105,7 +105,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="flex flex-row  scroll-animate expt">
+                <div class="flex flex-row  scroll-animate expt expt-rev">
                     <div class="expt-details">
                         <h4>Technology Integration</h4>
                         <ul>

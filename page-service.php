@@ -49,7 +49,7 @@ get_header();
         <div class="serv-pg-container">
             <h2 class="serv-pg-cta-title">Ready to Transform Your Business?</h2>
             <p class="serv-pg-cta-text">Let's discuss how our services can help you achieve your business goals and stay ahead of the competition.</p>
-            <button class="serv-pg-btn">Contact Us Today</button>
+            <a href="/#contact"><button class="serv-pg-btn">Contact Us Today</button></a>
         </div>
     </section>
 </main>
