@@ -8,10 +8,6 @@
             <p>
                 Leave the Tech to us, Focus on winning in your business
             </p>
-            <a href="https://g.co/kgs/GnVjUwv" class="foot-links">
-                697 Auburn Dr
-                Vallejo CA 94589
-            </a>
         </div>
         <div class="flex flex-col foot-mainpg">
             <h4>

@@ -85,7 +85,7 @@ get_header();
         <div class="mkt-pg-container">
             <h2 class="mkt-pg-cta-title">Ready to Transform Your Industry?</h2>
             <p class="mkt-pg-cta-text">Let's discuss how our industry-specific solutions can help you achieve your business goals and stay ahead of the competition.</p>
-            <a href="#contact" class="mkt-pg-btn">Get Started Today</a>
+            <a href="/#contact" class="mkt-pg-btn">Get Started Today</a>
         </div>
     </section>
 </main>

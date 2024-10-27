@@ -41,9 +41,12 @@
             </a>
         </nav>
         <div>
-            <button class="rounded-btn bg-black text-white">
-                Contact Us
-            </button>
+            <a href="/#contact">
+                <button class="rounded-btn bg-black text-white">
+                    Contact Us
+                </button>
+            </a>
+            
         </div>
 
     </div>

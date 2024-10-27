@@ -177,7 +177,7 @@
         </div>
         
     </section>
-    <section class="collab text-white">
+    <section class="collab text-white" id="contact">
         <div >
             <div class="sect-cont mx-auto flex flex-row justify-center collab-container">
                 <div class="collab-process">
@@ -196,7 +196,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="contact" id="contact">
+                <div class="contact" >
                     <h2>Contact</h2>
                     <form id="contact-form" class="flex flex-col" method="post">
                         <input type="text" name="contact_name" placeholder="Name" required />
