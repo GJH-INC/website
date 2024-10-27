@@ -20,6 +20,7 @@
     text-align: center;
     position: relative;
     overflow: hidden;
+    margin-top: 60px;
 }
 
 .mkt-pg-hero::after {
