@@ -68,5 +68,6 @@
     <script src="<?php echo get_template_directory_uri(); ?>/asset/scroll.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/asset/home.js"></script>
 <?php endif; ?> 
+<script src="<?php echo get_template_directory_uri(); ?>/asset/header.js"></script>
 </body>
 </html>
