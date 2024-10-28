@@ -23,7 +23,9 @@
 <header class="bg-white">
     <div class="flex flex-row justify-between items-center header-container">
         <div class="rounded-full logo-div">
-            <img width="48px" height="48px" src="<?php echo get_template_directory_uri(); ?>/asset/images/logo.png" />
+            <a href="<?php echo home_url(); ?>">
+                <img width="48px" height="48px" src="<?php echo get_template_directory_uri(); ?>/asset/images/logo.png" />
+            </a>
         </div>
         <nav class="flex flex-row desktop-nav">
             <a href="<?php echo home_url(); ?>">Home</a>
