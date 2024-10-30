@@ -12,7 +12,28 @@
             </button>
         </a>
     </section>
-
+    <section class="mkt-pg-stats">
+        <div class="mkt-pg-container">
+            <div class="mkt-pg-stats-grid">
+                <div class="mkt-pg-stat-item">
+                    <div class="mkt-pg-stat-number">100+</div>
+                    <div class="mkt-pg-stat-label">Clients Served</div>
+                </div>
+                <div class="mkt-pg-stat-item">
+                    <div class="mkt-pg-stat-number">15+</div>
+                    <div class="mkt-pg-stat-label">Years Experience</div>
+                </div>
+                <div class="mkt-pg-stat-item">
+                    <div class="mkt-pg-stat-number">100%</div>
+                    <div class="mkt-pg-stat-label">Client Satisfaction</div>
+                </div>
+                <div class="mkt-pg-stat-item">
+                    <div class="mkt-pg-stat-number">24/7</div>
+                    <div class="mkt-pg-stat-label">Support Available</div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="features ">
         <div class="sect-cont mx-auto">
             <h2 class="text-center">A passion to see you leap forward</h2>
