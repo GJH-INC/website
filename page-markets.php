@@ -6,7 +6,7 @@ get_header();
 ?>
 
 <main>
-    <section class="mkt-pg-hero">
+    <section class="mkt-pg-hero blurbg">
         <div class="mkt-pg-container">
             <h1 class="mkt-pg-hero-title">Markets We Serve</h1>
             <p class="mkt-pg-hero-text">Delivering innovative solutions across diverse industries with expertise, reliability, and cutting-edge technology</p>

@@ -7,32 +7,21 @@
 :root {
     --mkt-primary: #1e3a8a;
     --mkt-secondary: #1d4ed8;
-    --mkt-accent: #3b82f6;
+    --mkt-accent: #e84118;
     --mkt-text: #1f2937;
     --mkt-light-bg: #f8fafc;
     --mkt-border: #e2e8f0;
 }
 
 .mkt-pg-hero {
-    background: linear-gradient(135deg, var(--mkt-primary), var(--mkt-secondary));
-    color: white;
-    padding: 100px 20px;
+    color: #000;
+    padding: 160px 20px;
     text-align: center;
     position: relative;
     overflow: hidden;
-    margin-top: 60px;
 }
 
-.mkt-pg-hero::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: url('data:image/svg+xml,<svg width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"><circle cx="15" cy="15" r="1" fill="rgba(255,255,255,0.1)"/></svg>');
-    opacity: 0.3;
-}
+
 
 .mkt-pg-hero-title {
     font-size: 48px;
@@ -47,7 +36,7 @@
     margin: 0 auto;
     position: relative;
     z-index: 1;
-    color: rgba(255, 255, 255, 0.9);
+    color:#000;
 }
 
 .mkt-pg-container {
@@ -58,7 +47,6 @@
 
 .mkt-pg-markets {
     padding: 80px 0;
-    background: var(--mkt-light-bg);
 }
 
 .mkt-pg-grid {
@@ -153,7 +141,7 @@
 }
 
 .mkt-pg-cta {
-    background: var(--mkt-primary);
+    background: #ff6900;
     color: white;
     padding: 80px 20px;
     text-align: center;

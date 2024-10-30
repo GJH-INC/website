@@ -19,9 +19,6 @@
             <a class="foot-links" href="<?php echo home_url('/services'); ?>">
                 Services
             </a>
-            <a class="foot-links" href="<?php echo home_url('/capability-statement'); ?>">
-                Capability Statement
-            </a>
             <a class="foot-links" href="<?php echo home_url('/marketing'); ?>">
                 Marketing
             </a>

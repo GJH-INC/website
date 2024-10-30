@@ -20,7 +20,7 @@
 </head>
 <body <?php body_class(); ?>>
 
-<header class="bg-white">
+<header class="">
     <div class="flex flex-row justify-between items-center header-container">
         <div class="rounded-full logo-div">
             <a href="<?php echo home_url(); ?>">

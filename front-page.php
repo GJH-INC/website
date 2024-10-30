@@ -1,9 +1,8 @@
 <?php get_header(); ?>
 <main class="mx-auto">
-    <section class="hero sect-cont mx-auto">
+    <section class="hero blurbg sect-cont mx-auto">
         <h1 class="hero-title text-center">Leave the Tech to us</h1>
         <p class="hero-description text-center">
-            GJH INC offers companies the ability to quickly respond to technology initiatives by strategically acquiring skills and cost-effectively managing available resources.
             GJH INC provides strategic consulting technology, services, and managed services to commercial, not-for-profit,
             and government organizations.
         </p>
@@ -14,9 +13,12 @@
         </a>
     </section>
 
-    <section class="features bg-white">
+    <section class="features ">
         <div class="sect-cont mx-auto">
             <h2 class="text-center">A passion to see you leap forward</h2>
+            <!-- <p>
+                GJH INC offers companies the ability to quickly respond to technology initiatives by strategically acquiring skills and cost-effectively managing available resources.
+            </p> -->
             <p>
                 Reliable, innovative IT professionals from us can help you take your company to the next level and yet give you the flexibility to take on your greatest challenges without the expense, delay, or inconvenience of lengthy processes.
             </p>
@@ -88,7 +90,7 @@
             </div>  
         </div>
     </section>
-    <section class="expertise bg-white">
+    <section class="expertise ">
         <div class="sect-cont mx-auto">
             <h3 class="underlined-h3">Resource Solutions </h3>
             <div>
@@ -134,7 +136,7 @@
             </div>
         </div>
     </section>
-    <section class="expertise bg-white">
+    <section class="expertise ">
         <div class="sect-cont mx-auto">
             <h3 class="underlined-h3">What sets us apart? </h3>
             <div class="values-container">

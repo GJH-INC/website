@@ -6,15 +6,14 @@
 
         :root {
             --serv-primary: #1a365d;
-            --serv-secondary: #2563eb;
+            --serv-secondary: #f04820;
             --serv-accent: #60a5fa;
             --serv-text: #333;
             --serv-light-bg: #f3f4f6;
         }
 
         .serv-pg-hero {
-            background: linear-gradient(135deg, var(--serv-primary), var(--serv-secondary));
-            color: white;
+            color: black;
             padding: 80px 20px;
             text-align: center;
             margin-top: 60px;
@@ -27,7 +26,6 @@
 
         .serv-pg-hero-subtitle {
             font-size: 24px;
-            color: rgba(255, 255, 255, 0.9);
             font-style: italic;
             margin-bottom: 30px;
         }
@@ -43,7 +41,6 @@
             display: flex;
             align-items: center;
             gap: 10px;
-            color: #fff;
         }
 
         .serv-pg-container {

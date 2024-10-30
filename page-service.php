@@ -6,7 +6,7 @@ get_header();
 ?>
 
 <main>
-    <section class="serv-pg-hero">
+    <section class="serv-pg-hero blurbg">
         <div class="serv-pg-container">
             <h1 class="serv-pg-hero-title">Services We Offer</h1>
             <p class="serv-pg-hero-subtitle">A commitment to innovation and sustainability</p>
