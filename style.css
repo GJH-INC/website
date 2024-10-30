@@ -132,7 +132,7 @@ header nav a{
     text-decoration: none;
 }
 .scroll-active .header-container{
-    background: #fff;
+    backdrop-filter: blur(34px);
     box-shadow: 0 4.36px 13px rgba(25, 37, 132, .1);
 }
 .blurbg::after{
@@ -182,7 +182,7 @@ header nav a{
     left: 0;
     width: 0; /* Start at 0 width */
     height: 2px; /* Thickness of the border */
-    background-color: #5e50b4; /* Border color */
+    background-color: #e84118; /* Border color */
     transition: width 0.6s ease; /* Smooth transition */
 }
 

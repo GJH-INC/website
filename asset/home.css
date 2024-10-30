@@ -66,7 +66,7 @@
     margin-bottom: 48px;
 }
 .underlined-h3{
-    color: #5e50b4;
+    color: #e84118;
     font-size: 24px;
     padding-bottom: 16px;
     font-weight: 500;
@@ -177,6 +177,7 @@ section.expertise{
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 50px 20px;
+    gap: 24px;
 }
 
 .value-box {
