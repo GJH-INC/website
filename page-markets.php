@@ -62,7 +62,7 @@ get_header();
         <div class="mkt-pg-container">
             <div class="mkt-pg-stats-grid">
                 <div class="mkt-pg-stat-item">
-                    <div class="mkt-pg-stat-number">100+</div>
+                    <div class="mkt-pg-stat-number">25+</div>
                     <div class="mkt-pg-stat-label">Clients Served</div>
                 </div>
                 <div class="mkt-pg-stat-item">
