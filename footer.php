@@ -56,6 +56,7 @@
             </div>
         </div>
     </div>
+    <hr>
     <p>&copy; <?php echo date("Y"); ?> GJH consulting - All Rights Reserved</p>
 </footer>
 
